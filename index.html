@@ -937,22 +937,23 @@
 
           <h3 class="h3 form-title">Contact Form</h3>
 
-          <form action="#" class="form" data-form>
+               <form action="https://api.web3forms.com/submit" class="form" data-form action="https://api.web3forms.com/submit" method="POST">
 
+            <input type="hidden" name="access_key" value="3068ef37-8acb-463e-bfa7-d03d9b6ad8f6">
+        
             <div class="input-wrapper">
-              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
-
-              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+                <input type="text" name="name" class="form-input" placeholder="Full name" required data-form-input>
+                <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
             </div>
-
+        
             <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
-
-            <button class="form-btn" type="submit" disabled data-form-btn>
-              <ion-icon name="paper-plane"></ion-icon>
-              <span>Send Message</span>
+        
+            <button class="form-btn" type="submit" data-form-btn>
+                <ion-icon name="paper-plane"></ion-icon>
+                <span>Send Message</span>
             </button>
-
-          </form>
+        
+        </form>
 
         </section>
 
